@@ -73,13 +73,3 @@ enade %>% select(nu_idade, sexo, cor, nt_ger) %>%
   filter(is.na(cor) == F) %>% 
   group_by(cor) %>% 
   summarise(media = mean(nt_ger, na.rm = T))
-
-
-
-
-
-
-
-
-
-

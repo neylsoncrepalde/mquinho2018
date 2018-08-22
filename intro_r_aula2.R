@@ -170,13 +170,3 @@ summary(reg)
 exp(reg$coefficients[1])
 
 names(pnad)
-
-
-
-
-
-
-
-
-
-
